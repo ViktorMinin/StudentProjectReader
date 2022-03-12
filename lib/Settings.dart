@@ -10,7 +10,7 @@ class Settings extends StatelessWidget {
         title: const Text('Settings'),
         backgroundColor: Colors.orange
       ),
-      body: Center( 
+      body: const Center( 
       ),
     );
   }
