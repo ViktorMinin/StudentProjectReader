@@ -1,17 +1,19 @@
-//import 'dart:html';
-
 import 'package:flutter/material.dart';
+import 'package:new_project/Body.dart';
 import 'package:new_project/NavBar.dart';
 
- 
 void main() {
   runApp(MaterialApp(
-      home:  Scaffold( drawer: NavBar() ,backgroundColor: Colors.black,
-      body: Scaffold(backgroundColor: Colors.white, body: Center(child:Text("Test home page", style: TextStyle(color: Colors.black),))),
-        appBar: AppBar(title: Text("ReadS"), backgroundColor: Colors.orange,),)
-  ));
+      home: Scaffold(
+    drawer: NavBar(),
+    backgroundColor: Colors.black,
+    body: const Scaffold(backgroundColor: Colors.white, body: Body()),
+    appBar: AppBar(
+      title: const Text("ReadS"),
+      backgroundColor: Colors.orange,
+    ),
+  )));
 }
- 
 
 /*
 class MyApp extends StatelessWidget {

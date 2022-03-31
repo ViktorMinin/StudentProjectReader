@@ -6,12 +6,8 @@ class Read extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Read'),
-        backgroundColor: Colors.orange
-      ),
-      body: Center( 
-      ),
+      appBar: AppBar(title: const Text('Read'), backgroundColor: Colors.orange),
+      body: const Center(),
     );
   }
 }

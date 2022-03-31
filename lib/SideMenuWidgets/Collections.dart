@@ -7,11 +7,8 @@ class Collections extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Collections'),
-        backgroundColor: Colors.orange
-      ),
-      body: Center( 
-      ),
+          title: const Text('Collections'), backgroundColor: Colors.orange),
+      body: const Center(),
     );
   }
 }

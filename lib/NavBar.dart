@@ -43,7 +43,7 @@ class NavBar extends StatelessWidget {
             SideBarItem(
                 text: "Search",
                 icon: Icons.search,
-                func: () => SelectedItem(context, const Search())),
+                func: () => SelectedItem(context, Search())),
             const SizedBox(height: 10),
             SideBarItem(
                 text: "Collections",

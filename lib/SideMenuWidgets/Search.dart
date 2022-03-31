@@ -6,12 +6,9 @@ class Search extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Search'),
-        backgroundColor: Colors.orange
-      ),
-      body: Center( 
-      ),
+      appBar:
+          AppBar(title: const Text('Search'), backgroundColor: Colors.orange),
+      body: Center(),
     );
   }
 }

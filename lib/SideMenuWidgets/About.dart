@@ -7,12 +7,11 @@ class About extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.info),
+        leading: const Icon(Icons.info),
         title: const Text('About'),
         backgroundColor: Colors.orange,
       ),
-      body: Center( 
-      ),
+      body: const Center(child: Text("This application was made for reading books")),
     );
   }
 }
