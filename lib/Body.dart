@@ -13,29 +13,6 @@ class Body extends StatelessWidget {
           Column(
             children: <Widget>[
               const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
-              const SizedBox(height: 10),
-              ViewBookElement(
-                  name: "Test", author: "", bookFormat: "", description: ""),
             ],
           )
         ]));

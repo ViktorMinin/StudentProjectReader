@@ -1,13 +1,16 @@
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:new_project/Body.dart';
 import 'package:new_project/NavBar.dart';
+import 'package:new_project/Pages/BookPage.dart';
+import 'package:new_project/Pages/TestBookPage.dart';
 
 void main() {
   runApp(MaterialApp(
       home: Scaffold(
-    drawer: NavBar(),
-    backgroundColor: Colors.black,
-    body: const Scaffold(backgroundColor: Colors.white, body: Body()),
+    backgroundColor: Colors.white,
+    body: NavBar(),
+    //BookPage(), //const Scaffold(backgroundColor: Colors.white, body: Body()),
     appBar: AppBar(
       title: const Text("ReadS"),
       backgroundColor: Colors.orange,

@@ -29,17 +29,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  sqflite: ^2.0.2
+  # path
+  file_picker: ^4.5.1
+  native_pdf_view: ^6.0.0+1
+  #flutter_pdfview: ^1.2.1
 
+ # path: ^1.7.0
+ # path_provider: ^1.6.27
+ # flutter_full_pdf_viewer: ^1.0.4
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  sqflite: ^2.0.2
+  
   
   flutter_lints: ^1.0.0
 
@@ -53,7 +61,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+      - PDF/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
